@@ -15,6 +15,7 @@ RUN rm data/chatbot/botDefaultTrainingData.json || true
 RUN rm ftp/legal.md || true
 RUN rm i18n/*.json || true
 
+
 FROM gcr.io/distroless/nodejs:18
 ARG BUILD_DATE
 ARG VCS_REF
